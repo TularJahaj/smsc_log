@@ -1,184 +1,958 @@
-2025-07-07 07:53:30 DEBUG main.cpp:38: ======================Callback: READY|0
+2025-07-07 21:46:00 DEBUG main.cpp:40: ======================Callback: READY|0
 
-2025-07-07 07:53:30 DEBUG sctp_client.cpp:765: Connecting 1.......
+2025-07-07 21:46:00 DEBUG sctp_client.cpp:841: Connecting 2.......
 
-2025-07-07 07:53:30 DEBUG main.cpp:38: ======================Callback: READY|0
+2025-07-07 21:46:00 DEBUG sctp_client.cpp:917: Connecting 3.......
 
-2025-07-07 07:53:30 DEBUG sctp_client.cpp:843: Connecting 2.......
+2025-07-07 21:46:00 DEBUG main.cpp:40: ======================Callback: READY|0
 
-2025-07-07 07:53:30 DEBUG sctp_client.cpp:919: Connecting 3.......
+2025-07-07 21:46:00 DEBUG sctp_client.cpp:763: Connecting 1.......
 
-2025-07-07 07:53:30 DEBUG sctp_client.cpp:1000: Connecting 4.......
+2025-07-07 21:46:00 DEBUG sctp_client.cpp:998: Connecting 4.......
 
-2025-07-07 07:53:30 DEBUG sctp_client.cpp:819: Connected1 : 7
+2025-07-07 21:46:00 DEBUG sctp_client.cpp:973: Connected 3 : 8
 
-2025-07-07 07:53:30 DEBUG sctp_client.cpp:835: ASP Up sent from socket 1
-2025-07-07 07:53:30 DEBUG sctp_client.cpp:896: Connected 2 : 8
+2025-07-07 21:46:00 DEBUG sctp_client.cpp:991: ASP Up sent from socket 3
+2025-07-07 21:46:00 DEBUG sctp_client.cpp:894: Connected 2 : 7
 
-2025-07-07 07:53:30 DEBUG sctp_client.cpp:975: Connected 3 : 9
+2025-07-07 21:46:00 DEBUG sctp_client.cpp:1054: Connected 4 : 10
 
-2025-07-07 07:53:30 DEBUG sctp_client.cpp:912: ASP Up sent from socket 2
-2025-07-07 07:53:30 DEBUG sctp_client.cpp:1056: Connected 4 : 10
+2025-07-07 21:46:00 DEBUG sctp_client.cpp:910: ASP Up sent from socket 2
+2025-07-07 21:46:00 DEBUG sctp_client.cpp:1070: ASP Up sent from socket 4
+2025-07-07 21:46:00 DEBUG sctp_client.cpp:817: Connected1 : 9
 
-2025-07-07 07:53:30 DEBUG sctp_client.cpp:993: ASP Up sent from socket 3
-2025-07-07 07:53:30 DEBUG sctp_client.cpp:1072: ASP Up sent from socket 4
-2025-07-07 07:53:40 DEBUG main.cpp:38: ======================Callback: READY|1
+2025-07-07 21:46:00 DEBUG sctp_client.cpp:833: ASP Up sent from socket 1
+2025-07-07 21:46:10 DEBUG sctp_client.cpp:632: ASPAC ACK found for socket: 3
+2025-07-07 21:46:10 DEBUG main.cpp:40: ======================Callback: READY|1
 
-2025-07-07 07:53:40 DEBUG main.cpp:38: ======================Callback: READY|1
+2025-07-07 21:46:10 DEBUG sctp_client.cpp:632: ASPAC ACK found for socket: 4
+2025-07-07 21:46:10 DEBUG main.cpp:40: ======================Callback: READY|1
 
-2025-07-07 07:53:40 DEBUG main.cpp:126: Consumer started!!!
-2025-07-07 07:53:40 DEBUG main.cpp:126: Consumer started!!!
-2025-07-07 07:53:40 DEBUG main.cpp:38: ======================Callback: READY|1
+2025-07-07 21:46:10 DEBUG sctp_client.cpp:632: ASPAC ACK found for socket: 2
+2025-07-07 21:46:10 DEBUG main.cpp:40: ======================Callback: READY|1
 
-2025-07-07 07:53:40 DEBUG main.cpp:38: ======================Callback: READY|1
+2025-07-07 21:46:10 DEBUG sctp_client.cpp:632: ASPAC ACK found for socket: 1
+2025-07-07 21:46:10 DEBUG main.cpp:40: ======================Callback: READY|1
 
-2025-07-07 08:05:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801847291957",  "gt":"880811847291957",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":5448515374146766612,  "parts":["This is test sms from SMSC switch message number 27"]}
+2025-07-07 21:46:10 DEBUG main.cpp:128: Consumer started!!!
+2025-07-07 21:46:10 DEBUG main.cpp:128: Consumer started!!!
+2025-07-07 21:46:55 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801745803758",  "gt":"880711745803758",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":5911152594856130139,  "parts":["HELLO TEST 3"]}b.com/alanxz/r1ÿ
 
-2025-07-07 08:05:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801332512990",  "gt":"880711332512990",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":4725812331139455206,  "parts":["This is test sms from SMSC switch message number 27"]}
+2025-07-07 21:46:55 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801332512914",  "gt":"880711332512914",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":4117721980342606972,  "parts":["HELLO TEST 3"]}b.com/alanxz/r1ÿ
 
-2025-07-07 08:06:00 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741825 errorcode:6
-2025-07-07 08:06:00 WARN  message_handler.cpp:268: ERROR:FSM:8801847291957 6
-2025-07-07 08:06:00 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741824 errorcode:6
-2025-07-07 08:06:00 WARN  message_handler.cpp:268: ERROR:FSM:8801332512990 6
-2025-07-07 08:07:00 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:0 Id:5448515374146766612 mob:8801847291957 imsi:470020016455973 created:08:05:59 sri_sent:08:05:59 sri=>status: 4 transId: 1 sls: 0 fsm_sent:08:05:59 fsm:6 1073741825 8 1 part:1
+2025-07-07 21:46:55 DEBUG sctp_client.cpp:240: SendMessage 2: message_id: 5911152594856130139 mobile: 8801745803758 total part: 1 encoding: 0 Message: HELLO TEST 3
+2025-07-07 21:46:55 DEBUG sctp_client.cpp:240: SendMessage 2: message_id: 4117721980342606972 mobile: 8801332512914 total part: 1 encoding: 0 Message: HELLO TEST 3
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 1 transId: 1 sls: 0 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 08:07:00 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:1 Id:4725812331139455206 mob:8801332512990 imsi:470011332512990 created:08:05:59 sri_sent:08:05:59 sri=>status: 4 transId: 2 sls: 1 fsm_sent:08:05:59 fsm:6 1073741824 7 0 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 1 transId: 2 sls: 1 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 08:07:01 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741827 errorcode:6
-2025-07-07 08:07:01 WARN  message_handler.cpp:268: ERROR:FSM:8801847291957 6
-2025-07-07 08:07:01 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741826 errorcode:6
-2025-07-07 08:07:01 WARN  message_handler.cpp:268: ERROR:FSM:8801332512990 6
-2025-07-07 08:08:10 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:0 Id:5448515374146766612 mob:8801847291957 imsi:470020010294521 created:08:05:59 sri_sent:08:07:00 sri=>status: 4 transId: 3 sls: 2 fsm_sent:08:07:01 fsm:6 1073741827 11 3 part:1
+2025-07-07 21:46:55 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801332512901",  "gt":"880711332512901",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":69704003211223171,  "parts":["HELLO TEST 3"]}à
 
-2025-07-07 08:08:10 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:1 Id:4725812331139455206 mob:8801332512990 imsi:470011332512990 created:08:05:59 sri_sent:08:07:00 sri=>status: 4 transId: 4 sls: 3 fsm_sent:08:07:01 fsm:6 1073741826 10 2 part:1
+2025-07-07 21:46:55 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801857873297",  "gt":"880811857873297",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":4757355016384196843,  "parts":["HELLO TEST 3"]}b.com/alanxz/rå
 
-2025-07-07 08:08:11 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741829 errorcode:6
-2025-07-07 08:08:11 WARN  message_handler.cpp:268: ERROR:FSM:8801847291957 6
-2025-07-07 08:08:11 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741828 errorcode:6
-2025-07-07 08:08:11 WARN  message_handler.cpp:268: ERROR:FSM:8801332512990 6
-2025-07-07 08:09:20 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:0 Id:5448515374146766612 mob:8801847291957 imsi:470020016774967 created:08:05:59 sri_sent:08:08:10 sri=>status: 4 transId: 5 sls: 4 fsm_sent:08:08:11 fsm:6 1073741829 14 5 part:1
+2025-07-07 21:46:55 DEBUG sctp_client.cpp:240: SendMessage 4: message_id: 69704003211223171 mobile: 8801332512901 total part: 1 encoding: 0 Message: HELLO TEST 3
+2025-07-07 21:46:55 DEBUG sctp_client.cpp:240: SendMessage 4: message_id: 4757355016384196843 mobile: 8801857873297 total part: 1 encoding: 0 Message: HELLO TEST 3
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:2 Id:69704003211223171 mob:8801332512901 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 1 transId: 3 sls: 2 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 08:09:20 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:1 Id:4725812331139455206 mob:8801332512990 imsi:470011332512990 created:08:05:59 sri_sent:08:08:10 sri=>status: 4 transId: 6 sls: 5 fsm_sent:08:08:11 fsm:6 1073741828 13 4 part:1
+2025-07-07 21:46:55 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801332512914",  "gt":"880711332512914",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":2469839647359067131,  "parts":["hi test 4"]}}å
 
-2025-07-07 08:09:21 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741831 errorcode:6
-2025-07-07 08:09:21 WARN  message_handler.cpp:268: ERROR:FSM:8801847291957 6
-2025-07-07 08:09:28 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741830 mobile: 8801332512990 part: 1
+2025-07-07 21:46:55 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801745803758",  "gt":"880711745803758",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":5707137448765175809,  "parts":["hi test 4"]}
 
-2025-07-07 08:09:28 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|4725812331139455206|0|RVSM
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 1 transId: 4 sls: 3 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 08:10:30 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:0 Id:5448515374146766612 mob:8801847291957 imsi:470020010569077 created:08:05:59 sri_sent:08:09:20 sri=>status: 4 transId: 7 sls: 6 fsm_sent:08:09:21 fsm:6 1073741831 1 7 part:1
+2025-07-07 21:46:55 DEBUG sctp_client.cpp:240: SendMessage 6: message_id: 2469839647359067131 mobile: 8801332512914 total part: 1 encoding: 0 Message: hi test 4
+2025-07-07 21:46:55 DEBUG sctp_client.cpp:240: SendMessage 6: message_id: 5707137448765175809 mobile: 8801745803758 total part: 1 encoding: 0 Message: hi test 4
+2025-07-07 21:46:55 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801857873297",  "gt":"880811857873297",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":3030626265907823109,  "parts":["hi test 4"]}}å
 
-2025-07-07 08:10:31 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741832 errorcode:6
-2025-07-07 08:10:31 WARN  message_handler.cpp:268: ERROR:FSM:8801847291957 6
-2025-07-07 08:11:40 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:0 Id:5448515374146766612 mob:8801847291957 imsi:470020012168150 created:08:05:59 sri_sent:08:10:30 sri=>status: 4 transId: 9 sls: 8 fsm_sent:08:10:31 fsm:6 1073741832 3 8 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 1 transId: 5 sls: 4 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 08:11:41 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741833 mobile: 8801847291957 part: 1
+2025-07-07 21:46:55 DEBUG sctp_client.cpp:240: SendMessage 7: message_id: 3030626265907823109 mobile: 8801857873297 total part: 1 encoding: 0 Message: hi test 4
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 1 transId: 6 sls: 5 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 08:11:41 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|5448515374146766612|0|RVSM
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 1 transId: 7 sls: 6 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 09:39:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801847291957",  "gt":"880811847291957",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":2020520433944239086,  "parts":["This is Test SMS30"]}
+2025-07-07 21:46:55 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801332512901",  "gt":"880711332512901",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":88630801034148957,  "parts":["hi test 4"]}]}
 
-2025-07-07 09:39:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801811412835",  "gt":"880811811412835",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":2116512851586882950,  "parts":["This is Test SMS30"]}
+2025-07-07 21:46:55 DEBUG sctp_client.cpp:240: SendMessage 8: message_id: 88630801034148957 mobile: 8801332512901 total part: 1 encoding: 0 Message: hi test 4
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:7 Id:88630801034148957 mob:8801332512901 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 1 transId: 8 sls: 7 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 09:39:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801332512990",  "gt":"880711332512990",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":1404553661378645894,  "parts":["This is Test SMS30"]}
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 6 sls: 5 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 09:39:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801306066630",  "gt":"880711306066630",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":4075756365118376277,  "parts":["This is Test SMS30"]}
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 6 sls: 5 fsm_sent:21:46:55 fsm:1 1073741824 0 0 part:1
 
-2025-07-07 09:39:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801332512901",  "gt":"880711332512901",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":4644667658892284188,  "parts":["This is Test SMS30"]}
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:2 Id:69704003211223171 mob:8801332512901 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 3 sls: 2 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 09:39:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801332512914",  "gt":"880711332512914",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":1909321096113906697,  "parts":["This is Test SMS30"]}
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 3 sls: 2 fsm_sent:21:46:55 fsm:1 1073741825 1 1 part:1
 
-2025-07-07 09:39:59 ERROR message_handler.cpp:92: TENSE_ERROR: Sri Response Thread 1: NO MESSAGE FOUND transId:13
-2025-07-07 09:39:59 ERROR message_handler.cpp:92: TENSE_ERROR: Sri Response Thread 1: NO MESSAGE FOUND transId:11
-2025-07-07 09:39:59 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741837 errorcode:6
-2025-07-07 09:39:59 WARN  message_handler.cpp:268: ERROR:FSM:8801811412835 6
-2025-07-07 09:40:00 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741836 errorcode:6
-2025-07-07 09:40:00 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
-2025-07-07 09:40:00 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741834 errorcode:6
-2025-07-07 09:40:00 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
-2025-07-07 09:40:00 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741835 errorcode:6
-2025-07-07 09:40:00 WARN  message_handler.cpp:268: ERROR:FSM:8801306066630 6
-2025-07-07 09:41:00 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:0 Id:2116512851586882950 mob:8801811412835 imsi:470020012568221 created:09:39:59 sri_sent:09:39:59 sri=>status: 4 transId: 12 sls: 11 fsm_sent:09:39:59 fsm:6 1073741837 2 13 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 1 sls: 0 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 09:41:00 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:1 Id:4075756365118376277 mob:8801306066630 imsi:470011306066630 created:09:39:59 sri_sent:09:39:59 sri=>status: 4 transId: 14 sls: 13 fsm_sent:09:39:59 fsm:6 1073741835 0 11 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 1 sls: 0 fsm_sent:21:46:55 fsm:1 1073741826 2 2 part:1
 
-2025-07-07 09:41:00 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:2 Id:4644667658892284188 mob:8801332512901 imsi:470011332512901 created:09:39:59 sri_sent:09:39:59 sri=>status: 4 transId: 15 sls: 14 fsm_sent:09:39:59 fsm:6 1073741834 15 10 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 7 sls: 6 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 09:41:00 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:3 Id:1909321096113906697 mob:8801332512914 imsi:470011332512914 created:09:39:59 sri_sent:09:39:59 sri=>status: 4 transId: 16 sls: 15 fsm_sent:09:39:59 fsm:6 1073741836 1 12 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020011777618 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 7 sls: 6 fsm_sent:21:46:55 fsm:1 1073741827 3 3 part:1
 
-2025-07-07 09:41:01 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741838 errorcode:6
-2025-07-07 09:41:01 WARN  message_handler.cpp:268: ERROR:FSM:8801306066630 6
-2025-07-07 09:41:01 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741840 errorcode:6
-2025-07-07 09:41:01 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
-2025-07-07 09:41:01 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741841 errorcode:6
-2025-07-07 09:41:01 WARN  message_handler.cpp:268: ERROR:FSM:8801811412835 6
-2025-07-07 09:41:01 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741839 errorcode:6
-2025-07-07 09:41:01 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
-2025-07-07 09:42:10 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:0 Id:2116512851586882950 mob:8801811412835 imsi:470020018630387 created:09:39:59 sri_sent:09:41:00 sri=>status: 4 transId: 17 sls: 0 fsm_sent:09:41:01 fsm:6 1073741841 6 17 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:7 Id:88630801034148957 mob:8801332512901 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 8 sls: 7 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 09:42:10 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:1 Id:4075756365118376277 mob:8801306066630 imsi:470011306066630 created:09:39:59 sri_sent:09:41:00 sri=>status: 4 transId: 18 sls: 1 fsm_sent:09:41:01 fsm:6 1073741838 3 14 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 8 sls: 7 fsm_sent:21:46:55 fsm:1 1073741828 4 4 part:1
 
-2025-07-07 09:42:10 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:2 Id:4644667658892284188 mob:8801332512901 imsi:470011332512901 created:09:39:59 sri_sent:09:41:00 sri=>status: 4 transId: 19 sls: 2 fsm_sent:09:41:01 fsm:6 1073741840 5 16 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 2 sls: 1 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 09:42:10 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:3 Id:1909321096113906697 mob:8801332512914 imsi:470011332512914 created:09:39:59 sri_sent:09:41:00 sri=>status: 4 transId: 20 sls: 3 fsm_sent:09:41:01 fsm:6 1073741839 4 15 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 2 sls: 1 fsm_sent:21:46:55 fsm:1 1073741829 5 5 part:1
 
-2025-07-07 09:42:11 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741844 errorcode:6
-2025-07-07 09:42:11 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
-2025-07-07 09:42:11 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741842 errorcode:6
-2025-07-07 09:42:11 WARN  message_handler.cpp:268: ERROR:FSM:8801306066630 6
-2025-07-07 09:42:11 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741845 errorcode:6
-2025-07-07 09:42:11 WARN  message_handler.cpp:268: ERROR:FSM:8801811412835 6
-2025-07-07 09:42:11 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741843 errorcode:6
-2025-07-07 09:42:11 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
-2025-07-07 09:43:20 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:0 Id:2116512851586882950 mob:8801811412835 imsi:470020013199592 created:09:39:59 sri_sent:09:42:10 sri=>status: 4 transId: 21 sls: 4 fsm_sent:09:42:11 fsm:6 1073741845 11 21 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 5 sls: 4 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 09:43:20 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:1 Id:4075756365118376277 mob:8801306066630 imsi:470011306066630 created:09:39:59 sri_sent:09:42:10 sri=>status: 4 transId: 22 sls: 5 fsm_sent:09:42:11 fsm:6 1073741842 8 18 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 5 sls: 4 fsm_sent:21:46:55 fsm:1 1073741830 6 6 part:1
 
-2025-07-07 09:43:20 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:2 Id:4644667658892284188 mob:8801332512901 imsi:470011332512901 created:09:39:59 sri_sent:09:42:10 sri=>status: 4 transId: 23 sls: 6 fsm_sent:09:42:11 fsm:6 1073741844 10 20 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi: created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 4 sls: 3 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
 
-2025-07-07 09:43:20 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:3 Id:1909321096113906697 mob:8801332512914 imsi:470011332512914 created:09:39:59 sri_sent:09:42:10 sri=>status: 4 transId: 24 sls: 7 fsm_sent:09:42:11 fsm:6 1073741843 9 19 part:1
+2025-07-07 21:46:55 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020011205770 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 4 sls: 3 fsm_sent:21:46:55 fsm:1 1073741831 7 7 part:1
 
-2025-07-07 09:43:21 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741848 errorcode:6
-2025-07-07 09:43:21 WARN  message_handler.cpp:268: ERROR:FSM:8801306066630 6
-2025-07-07 09:43:22 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741849 mobile: 8801811412835 part: 1
+2025-07-07 21:46:55 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741827 errorcode:6
+2025-07-07 21:46:55 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:46:55 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741828 errorcode:6
+2025-07-07 21:46:55 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:46:56 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741829 errorcode:6
+2025-07-07 21:46:56 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:46:56 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741831 errorcode:6
+2025-07-07 21:46:56 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:46:56 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741825 errorcode:6
+2025-07-07 21:46:56 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:46:56 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741830 errorcode:6
+2025-07-07 21:46:56 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:46:56 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741826 errorcode:6
+2025-07-07 21:46:56 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:46:56 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741824 errorcode:6
+2025-07-07 21:46:56 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 1 sls: 0 fsm_sent:21:46:55 fsm:6 1073741826 2 2 part:1
 
-2025-07-07 09:43:22 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|2116512851586882950|0|RVSM
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:48:00 sri=>status: 1 transId: 9 sls: 8 fsm_sent:21:46:55 fsm:6 1073741826 2 2 part:1
 
-2025-07-07 09:43:23 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741847 mobile: 8801332512901 part: 1
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 2 sls: 1 fsm_sent:21:46:55 fsm:6 1073741829 5 5 part:1
 
-2025-07-07 09:43:23 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|4644667658892284188|0|RVSM
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:48:00 sri=>status: 1 transId: 10 sls: 9 fsm_sent:21:46:55 fsm:6 1073741829 5 5 part:1
 
-2025-07-07 09:43:41 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741846 errorcode:34
-2025-07-07 09:43:41 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 34
-2025-07-07 09:44:30 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:1 Id:4075756365118376277 mob:8801306066630 imsi:470011306066630 created:09:39:59 sri_sent:09:43:20 sri=>status: 4 transId: 26 sls: 9 fsm_sent:09:43:21 fsm:6 1073741848 0 24 part:1
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 3 sls: 2 fsm_sent:21:46:55 fsm:6 1073741825 1 1 part:1
 
-2025-07-07 09:44:30 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:3 Id:1909321096113906697 mob:8801332512914 imsi:470011332512914 created:09:39:59 sri_sent:09:43:20 sri=>status: 4 transId: 28 sls: 11 fsm_sent:09:43:21 fsm:34 1073741846 14 22 part:1
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:48:00 sri=>status: 1 transId: 11 sls: 10 fsm_sent:21:46:55 fsm:6 1073741825 1 1 part:1
 
-2025-07-07 09:44:32 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741851 errorcode:6
-2025-07-07 09:44:32 WARN  message_handler.cpp:268: ERROR:FSM:8801306066630 6
-2025-07-07 09:44:32 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741850 mobile: 8801332512914 part: 1
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020011205770 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 4 sls: 3 fsm_sent:21:46:55 fsm:6 1073741831 7 7 part:1
 
-2025-07-07 09:44:32 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|1909321096113906697|0|RVSM
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020011205770 created:21:46:55 sri_sent:21:48:00 sri=>status: 1 transId: 12 sls: 11 fsm_sent:21:46:55 fsm:6 1073741831 7 7 part:1
 
-2025-07-07 09:45:40 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:1 Id:4075756365118376277 mob:8801306066630 imsi:470011306066630 created:09:39:59 sri_sent:09:44:30 sri=>status: 4 transId: 29 sls: 12 fsm_sent:09:44:31 fsm:6 1073741851 3 27 part:1
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 5 sls: 4 fsm_sent:21:46:55 fsm:6 1073741830 6 6 part:1
 
-2025-07-07 09:45:41 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741852 errorcode:6
-2025-07-07 09:45:41 WARN  message_handler.cpp:268: ERROR:FSM:8801306066630 6
-2025-07-07 09:46:50 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:1 Id:4075756365118376277 mob:8801306066630 imsi:470011306066630 created:09:39:59 sri_sent:09:45:40 sri=>status: 4 transId: 31 sls: 14 fsm_sent:09:45:41 fsm:6 1073741852 6 28 part:1
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:48:00 sri=>status: 1 transId: 13 sls: 12 fsm_sent:21:46:55 fsm:6 1073741830 6 6 part:1
 
-2025-07-07 09:46:53 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741853 mobile: 8801306066630 part: 1
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 6 sls: 5 fsm_sent:21:46:55 fsm:6 1073741824 0 0 part:1
 
-2025-07-07 09:46:53 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|4075756365118376277|0|RVSM
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:48:00 sri=>status: 1 transId: 14 sls: 13 fsm_sent:21:46:55 fsm:6 1073741824 0 0 part:1
 
-2025-07-07 11:28:33 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643910000",  "msisdn":"8801322811590",  "gt":"880711322811590",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":1907711225068906548,  "parts":["test sms for system check."]}å
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020011777618 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 7 sls: 6 fsm_sent:21:46:55 fsm:6 1073741827 3 3 part:1
 
-2025-07-07 11:28:36 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741854 mobile: 8801322811590 part: 1
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020011777618 created:21:46:55 sri_sent:21:48:00 sri=>status: 1 transId: 15 sls: 14 fsm_sent:21:46:55 fsm:6 1073741827 3 3 part:1
 
-2025-07-07 11:28:36 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|1907711225068906548|0|RVSM
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:46:55 sri=>status: 4 transId: 8 sls: 7 fsm_sent:21:46:55 fsm:6 1073741828 4 4 part:1
 
-2025-07-07 11:34:29 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643910000",  "msisdn":"8801914065339",  "gt":"880911914065339",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":4322210889225875680,  "parts":["test sms 5:34PM"]}m check."]}å
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:48:00 sri=>status: 1 transId: 16 sls: 15 fsm_sent:21:46:55 fsm:6 1073741828 4 4 part:1
 
-2025-07-07 11:34:31 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741855 mobile: 8801914065339 part: 1
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 10 sls: 9 fsm_sent:21:46:55 fsm:6 1073741829 5 5 part:1
 
-2025-07-07 11:34:31 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|4322210889225875680|0|RVSM
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 10 sls: 9 fsm_sent:21:48:00 fsm:1 1073741832 8 8 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 16 sls: 15 fsm_sent:21:46:55 fsm:6 1073741828 4 4 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 16 sls: 15 fsm_sent:21:48:00 fsm:1 1073741833 9 9 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 9 sls: 8 fsm_sent:21:46:55 fsm:6 1073741826 2 2 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 9 sls: 8 fsm_sent:21:48:00 fsm:1 1073741834 10 10 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 14 sls: 13 fsm_sent:21:46:55 fsm:6 1073741824 0 0 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 14 sls: 13 fsm_sent:21:48:00 fsm:1 1073741835 11 11 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 11 sls: 10 fsm_sent:21:46:55 fsm:6 1073741825 1 1 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 11 sls: 10 fsm_sent:21:48:00 fsm:1 1073741836 12 12 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 13 sls: 12 fsm_sent:21:46:55 fsm:6 1073741830 6 6 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 13 sls: 12 fsm_sent:21:48:00 fsm:1 1073741837 13 13 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020011205770 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 12 sls: 11 fsm_sent:21:46:55 fsm:6 1073741831 7 7 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020010047716 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 12 sls: 11 fsm_sent:21:48:00 fsm:1 1073741838 14 14 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020011777618 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 15 sls: 14 fsm_sent:21:46:55 fsm:6 1073741827 3 3 part:1
+
+2025-07-07 21:48:00 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020012510010 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 15 sls: 14 fsm_sent:21:48:00 fsm:1 1073741839 15 15 part:1
+
+2025-07-07 21:48:00 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741833 errorcode:6
+2025-07-07 21:48:00 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:48:00 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741835 errorcode:6
+2025-07-07 21:48:00 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:48:00 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741832 errorcode:6
+2025-07-07 21:48:00 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:48:00 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741836 errorcode:6
+2025-07-07 21:48:00 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:48:00 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741834 errorcode:6
+2025-07-07 21:48:00 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:48:00 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741838 errorcode:6
+2025-07-07 21:48:00 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:48:01 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741839 errorcode:6
+2025-07-07 21:48:01 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:48:01 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741837 errorcode:6
+2025-07-07 21:48:01 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 9 sls: 8 fsm_sent:21:48:00 fsm:6 1073741834 10 10 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:49:10 sri=>status: 1 transId: 17 sls: 0 fsm_sent:21:48:00 fsm:6 1073741834 10 10 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 10 sls: 9 fsm_sent:21:48:00 fsm:6 1073741832 8 8 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:49:10 sri=>status: 1 transId: 18 sls: 1 fsm_sent:21:48:00 fsm:6 1073741832 8 8 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 11 sls: 10 fsm_sent:21:48:00 fsm:6 1073741836 12 12 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:49:10 sri=>status: 1 transId: 19 sls: 2 fsm_sent:21:48:00 fsm:6 1073741836 12 12 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020010047716 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 12 sls: 11 fsm_sent:21:48:00 fsm:6 1073741838 14 14 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020010047716 created:21:46:55 sri_sent:21:49:10 sri=>status: 1 transId: 20 sls: 3 fsm_sent:21:48:00 fsm:6 1073741838 14 14 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 13 sls: 12 fsm_sent:21:48:00 fsm:6 1073741837 13 13 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:49:10 sri=>status: 1 transId: 21 sls: 4 fsm_sent:21:48:00 fsm:6 1073741837 13 13 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 14 sls: 13 fsm_sent:21:48:00 fsm:6 1073741835 11 11 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:49:10 sri=>status: 1 transId: 22 sls: 5 fsm_sent:21:48:00 fsm:6 1073741835 11 11 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020012510010 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 15 sls: 14 fsm_sent:21:48:00 fsm:6 1073741839 15 15 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020012510010 created:21:46:55 sri_sent:21:49:10 sri=>status: 1 transId: 23 sls: 6 fsm_sent:21:48:00 fsm:6 1073741839 15 15 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:48:00 sri=>status: 4 transId: 16 sls: 15 fsm_sent:21:48:00 fsm:6 1073741833 9 9 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:49:10 sri=>status: 1 transId: 24 sls: 7 fsm_sent:21:48:00 fsm:6 1073741833 9 9 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 18 sls: 1 fsm_sent:21:48:00 fsm:6 1073741832 8 8 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 18 sls: 1 fsm_sent:21:49:10 fsm:1 1073741840 0 16 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 17 sls: 0 fsm_sent:21:48:00 fsm:6 1073741834 10 10 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 17 sls: 0 fsm_sent:21:49:10 fsm:1 1073741841 1 17 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 22 sls: 5 fsm_sent:21:48:00 fsm:6 1073741835 11 11 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 22 sls: 5 fsm_sent:21:49:10 fsm:1 1073741842 2 18 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 24 sls: 7 fsm_sent:21:48:00 fsm:6 1073741833 9 9 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 24 sls: 7 fsm_sent:21:49:10 fsm:1 1073741843 3 19 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 21 sls: 4 fsm_sent:21:48:00 fsm:6 1073741837 13 13 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 21 sls: 4 fsm_sent:21:49:10 fsm:1 1073741844 4 20 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 19 sls: 2 fsm_sent:21:48:00 fsm:6 1073741836 12 12 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 19 sls: 2 fsm_sent:21:49:10 fsm:1 1073741845 5 21 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020012510010 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 23 sls: 6 fsm_sent:21:48:00 fsm:6 1073741839 15 15 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020018253821 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 23 sls: 6 fsm_sent:21:49:10 fsm:1 1073741846 6 22 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020010047716 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 20 sls: 3 fsm_sent:21:48:00 fsm:6 1073741838 14 14 part:1
+
+2025-07-07 21:49:10 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020010120503 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 20 sls: 3 fsm_sent:21:49:10 fsm:1 1073741847 7 23 part:1
+
+2025-07-07 21:49:10 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741841 errorcode:6
+2025-07-07 21:49:10 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:49:10 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741840 errorcode:6
+2025-07-07 21:49:10 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:49:10 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741843 errorcode:6
+2025-07-07 21:49:10 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:49:10 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741845 errorcode:6
+2025-07-07 21:49:10 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:49:10 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741844 errorcode:6
+2025-07-07 21:49:10 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:49:11 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741847 errorcode:6
+2025-07-07 21:49:11 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:49:11 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741846 errorcode:6
+2025-07-07 21:49:11 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:49:11 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741842 errorcode:6
+2025-07-07 21:49:11 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 17 sls: 0 fsm_sent:21:49:10 fsm:6 1073741841 1 17 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:50:20 sri=>status: 1 transId: 25 sls: 8 fsm_sent:21:49:10 fsm:6 1073741841 1 17 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 18 sls: 1 fsm_sent:21:49:10 fsm:6 1073741840 0 16 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:50:20 sri=>status: 1 transId: 26 sls: 9 fsm_sent:21:49:10 fsm:6 1073741840 0 16 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 19 sls: 2 fsm_sent:21:49:10 fsm:6 1073741845 5 21 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:50:20 sri=>status: 1 transId: 27 sls: 10 fsm_sent:21:49:10 fsm:6 1073741845 5 21 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020010120503 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 20 sls: 3 fsm_sent:21:49:10 fsm:6 1073741847 7 23 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020010120503 created:21:46:55 sri_sent:21:50:20 sri=>status: 1 transId: 28 sls: 11 fsm_sent:21:49:10 fsm:6 1073741847 7 23 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 21 sls: 4 fsm_sent:21:49:10 fsm:6 1073741844 4 20 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:50:20 sri=>status: 1 transId: 29 sls: 12 fsm_sent:21:49:10 fsm:6 1073741844 4 20 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 22 sls: 5 fsm_sent:21:49:10 fsm:6 1073741842 2 18 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:50:20 sri=>status: 1 transId: 30 sls: 13 fsm_sent:21:49:10 fsm:6 1073741842 2 18 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020018253821 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 23 sls: 6 fsm_sent:21:49:10 fsm:6 1073741846 6 22 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020018253821 created:21:46:55 sri_sent:21:50:20 sri=>status: 1 transId: 31 sls: 14 fsm_sent:21:49:10 fsm:6 1073741846 6 22 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:49:10 sri=>status: 4 transId: 24 sls: 7 fsm_sent:21:49:10 fsm:6 1073741843 3 19 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:50:20 sri=>status: 1 transId: 32 sls: 15 fsm_sent:21:49:10 fsm:6 1073741843 3 19 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 32 sls: 15 fsm_sent:21:49:10 fsm:6 1073741843 3 19 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 32 sls: 15 fsm_sent:21:50:20 fsm:1 1073741848 10 24 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 25 sls: 8 fsm_sent:21:49:10 fsm:6 1073741841 1 17 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 25 sls: 8 fsm_sent:21:50:20 fsm:1 1073741849 11 25 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 26 sls: 9 fsm_sent:21:49:10 fsm:6 1073741840 0 16 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 29 sls: 12 fsm_sent:21:49:10 fsm:6 1073741844 4 20 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 26 sls: 9 fsm_sent:21:50:20 fsm:1 1073741850 12 26 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 29 sls: 12 fsm_sent:21:50:20 fsm:1 1073741851 13 27 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 30 sls: 13 fsm_sent:21:49:10 fsm:6 1073741842 2 18 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 30 sls: 13 fsm_sent:21:50:20 fsm:1 1073741852 14 28 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 27 sls: 10 fsm_sent:21:49:10 fsm:6 1073741845 5 21 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 27 sls: 10 fsm_sent:21:50:20 fsm:1 1073741853 15 29 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020018253821 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 31 sls: 14 fsm_sent:21:49:10 fsm:6 1073741846 6 22 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020013171971 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 31 sls: 14 fsm_sent:21:50:20 fsm:1 1073741854 0 30 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020010120503 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 28 sls: 11 fsm_sent:21:49:10 fsm:6 1073741847 7 23 part:1
+
+2025-07-07 21:50:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020010309089 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 28 sls: 11 fsm_sent:21:50:20 fsm:1 1073741855 1 31 part:1
+
+2025-07-07 21:50:20 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741854 errorcode:6
+2025-07-07 21:50:20 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:50:20 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741850 errorcode:6
+2025-07-07 21:50:20 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:50:20 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741852 errorcode:6
+2025-07-07 21:50:20 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:50:20 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741849 errorcode:6
+2025-07-07 21:50:20 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:50:20 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741848 errorcode:6
+2025-07-07 21:50:20 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:50:20 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741853 errorcode:6
+2025-07-07 21:50:20 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:50:20 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741851 errorcode:6
+2025-07-07 21:50:20 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:50:21 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741855 errorcode:6
+2025-07-07 21:50:21 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 25 sls: 8 fsm_sent:21:50:20 fsm:6 1073741849 11 25 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:51:30 sri=>status: 1 transId: 33 sls: 0 fsm_sent:21:50:20 fsm:6 1073741849 11 25 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 26 sls: 9 fsm_sent:21:50:20 fsm:6 1073741850 12 26 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:51:30 sri=>status: 1 transId: 34 sls: 1 fsm_sent:21:50:20 fsm:6 1073741850 12 26 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 27 sls: 10 fsm_sent:21:50:20 fsm:6 1073741853 15 29 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:51:30 sri=>status: 1 transId: 35 sls: 2 fsm_sent:21:50:20 fsm:6 1073741853 15 29 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020010309089 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 28 sls: 11 fsm_sent:21:50:20 fsm:6 1073741855 1 31 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020010309089 created:21:46:55 sri_sent:21:51:30 sri=>status: 1 transId: 36 sls: 3 fsm_sent:21:50:20 fsm:6 1073741855 1 31 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 29 sls: 12 fsm_sent:21:50:20 fsm:6 1073741851 13 27 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:51:30 sri=>status: 1 transId: 37 sls: 4 fsm_sent:21:50:20 fsm:6 1073741851 13 27 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 30 sls: 13 fsm_sent:21:50:20 fsm:6 1073741852 14 28 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:51:30 sri=>status: 1 transId: 38 sls: 5 fsm_sent:21:50:20 fsm:6 1073741852 14 28 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020013171971 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 31 sls: 14 fsm_sent:21:50:20 fsm:6 1073741854 0 30 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020013171971 created:21:46:55 sri_sent:21:51:30 sri=>status: 1 transId: 39 sls: 6 fsm_sent:21:50:20 fsm:6 1073741854 0 30 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:50:20 sri=>status: 4 transId: 32 sls: 15 fsm_sent:21:50:20 fsm:6 1073741848 10 24 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:51:30 sri=>status: 1 transId: 40 sls: 7 fsm_sent:21:50:20 fsm:6 1073741848 10 24 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 35 sls: 2 fsm_sent:21:50:20 fsm:6 1073741853 15 29 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 35 sls: 2 fsm_sent:21:51:30 fsm:1 1073741856 2 32 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 40 sls: 7 fsm_sent:21:50:20 fsm:6 1073741848 10 24 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 40 sls: 7 fsm_sent:21:51:30 fsm:1 1073741857 3 33 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 33 sls: 0 fsm_sent:21:50:20 fsm:6 1073741849 11 25 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 33 sls: 0 fsm_sent:21:51:30 fsm:1 1073741858 4 34 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 37 sls: 4 fsm_sent:21:50:20 fsm:6 1073741851 13 27 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 37 sls: 4 fsm_sent:21:51:30 fsm:1 1073741859 5 35 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 38 sls: 5 fsm_sent:21:50:20 fsm:6 1073741852 14 28 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 38 sls: 5 fsm_sent:21:51:30 fsm:1 1073741860 6 36 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 34 sls: 1 fsm_sent:21:50:20 fsm:6 1073741850 12 26 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 34 sls: 1 fsm_sent:21:51:30 fsm:1 1073741861 7 37 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020013171971 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 39 sls: 6 fsm_sent:21:50:20 fsm:6 1073741854 0 30 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020010300634 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 39 sls: 6 fsm_sent:21:51:30 fsm:1 1073741862 8 38 part:1
+
+2025-07-07 21:51:30 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741857 errorcode:6
+2025-07-07 21:51:30 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:51:30 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741856 errorcode:6
+2025-07-07 21:51:30 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:51:30 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741861 errorcode:6
+2025-07-07 21:51:30 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:51:30 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741859 errorcode:6
+2025-07-07 21:51:30 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020010309089 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 36 sls: 3 fsm_sent:21:50:20 fsm:6 1073741855 1 31 part:1
+
+2025-07-07 21:51:30 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020011359619 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 36 sls: 3 fsm_sent:21:51:30 fsm:1 1073741863 9 39 part:1
+
+2025-07-07 21:51:30 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741860 errorcode:6
+2025-07-07 21:51:30 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:51:30 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741858 errorcode:6
+2025-07-07 21:51:30 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:51:30 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741862 errorcode:6
+2025-07-07 21:51:30 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:51:31 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741863 errorcode:6
+2025-07-07 21:51:31 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 33 sls: 0 fsm_sent:21:51:30 fsm:6 1073741858 4 34 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:52:40 sri=>status: 1 transId: 41 sls: 8 fsm_sent:21:51:30 fsm:6 1073741858 4 34 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 34 sls: 1 fsm_sent:21:51:30 fsm:6 1073741861 7 37 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:52:40 sri=>status: 1 transId: 42 sls: 9 fsm_sent:21:51:30 fsm:6 1073741861 7 37 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 35 sls: 2 fsm_sent:21:51:30 fsm:6 1073741856 2 32 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:52:40 sri=>status: 1 transId: 43 sls: 10 fsm_sent:21:51:30 fsm:6 1073741856 2 32 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020011359619 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 36 sls: 3 fsm_sent:21:51:30 fsm:6 1073741863 9 39 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020011359619 created:21:46:55 sri_sent:21:52:40 sri=>status: 1 transId: 44 sls: 11 fsm_sent:21:51:30 fsm:6 1073741863 9 39 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 37 sls: 4 fsm_sent:21:51:30 fsm:6 1073741859 5 35 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:52:40 sri=>status: 1 transId: 45 sls: 12 fsm_sent:21:51:30 fsm:6 1073741859 5 35 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 38 sls: 5 fsm_sent:21:51:30 fsm:6 1073741860 6 36 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:52:40 sri=>status: 1 transId: 46 sls: 13 fsm_sent:21:51:30 fsm:6 1073741860 6 36 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020010300634 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 39 sls: 6 fsm_sent:21:51:30 fsm:6 1073741862 8 38 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020010300634 created:21:46:55 sri_sent:21:52:40 sri=>status: 1 transId: 47 sls: 14 fsm_sent:21:51:30 fsm:6 1073741862 8 38 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:51:30 sri=>status: 4 transId: 40 sls: 7 fsm_sent:21:51:30 fsm:6 1073741857 3 33 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:52:40 sri=>status: 1 transId: 48 sls: 15 fsm_sent:21:51:30 fsm:6 1073741857 3 33 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 41 sls: 8 fsm_sent:21:51:30 fsm:6 1073741858 4 34 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:0 Id:5911152594856130139 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 41 sls: 8 fsm_sent:21:52:40 fsm:1 1073741864 10 40 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 46 sls: 13 fsm_sent:21:51:30 fsm:6 1073741860 6 36 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:5 Id:5707137448765175809 mob:8801745803758 imsi:470011745803758 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 46 sls: 13 fsm_sent:21:52:40 fsm:1 1073741865 11 41 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 48 sls: 15 fsm_sent:21:51:30 fsm:6 1073741857 3 33 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:7 Id:88630801034148957 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 48 sls: 15 fsm_sent:21:52:40 fsm:1 1073741866 12 42 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 42 sls: 9 fsm_sent:21:51:30 fsm:6 1073741861 7 37 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:1 Id:4117721980342606972 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 42 sls: 9 fsm_sent:21:52:40 fsm:1 1073741867 13 43 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 43 sls: 10 fsm_sent:21:51:30 fsm:6 1073741856 2 32 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:2 Id:69704003211223171 mob:8801332512901 imsi:470011332512901 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 43 sls: 10 fsm_sent:21:52:40 fsm:1 1073741868 14 44 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 45 sls: 12 fsm_sent:21:51:30 fsm:6 1073741859 5 35 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 45 sls: 12 fsm_sent:21:52:40 fsm:1 1073741869 15 45 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020011359619 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 44 sls: 11 fsm_sent:21:51:30 fsm:6 1073741863 9 39 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:3 Id:4757355016384196843 mob:8801857873297 imsi:470020017432480 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 44 sls: 11 fsm_sent:21:52:40 fsm:1 1073741870 0 46 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020010300634 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 47 sls: 14 fsm_sent:21:51:30 fsm:6 1073741862 8 38 part:1
+
+2025-07-07 21:52:40 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:6 Id:3030626265907823109 mob:8801857873297 imsi:470020019966640 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 47 sls: 14 fsm_sent:21:52:40 fsm:1 1073741871 1 47 part:1
+
+2025-07-07 21:52:41 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741866 mobile: 8801332512901 part: 1
+
+2025-07-07 21:52:41 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|88630801034148957|0|RVSM
+
+2025-07-07 21:52:41 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741867 mobile: 8801332512914 part: 1
+
+2025-07-07 21:52:41 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|4117721980342606972|0|RVSM
+
+2025-07-07 21:52:41 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741864 mobile: 8801745803758 part: 1
+
+2025-07-07 21:52:41 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|5911152594856130139|0|RVSM
+
+2025-07-07 21:52:42 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741870 mobile: 8801857873297 part: 1
+
+2025-07-07 21:52:42 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|4757355016384196843|0|RVSM
+
+2025-07-07 21:52:42 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741871 mobile: 8801857873297 part: 1
+
+2025-07-07 21:52:42 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|3030626265907823109|0|RVSM
+
+2025-07-07 21:52:53 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741865 mobile: 8801745803758 part: 1
+
+2025-07-07 21:52:53 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|5707137448765175809|0|RVSM
+
+2025-07-07 21:52:54 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741868 mobile: 8801332512901 part: 1
+
+2025-07-07 21:52:54 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|69704003211223171|0|RVSM
+
+2025-07-07 21:53:00 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741869 errorcode:34
+2025-07-07 21:53:00 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 34
+2025-07-07 21:53:50 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:52:40 sri=>status: 4 transId: 45 sls: 12 fsm_sent:21:52:40 fsm:34 1073741869 15 45 part:1
+
+2025-07-07 21:53:50 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:53:50 sri=>status: 1 transId: 49 sls: 0 fsm_sent:21:52:40 fsm:34 1073741869 15 45 part:1
+
+2025-07-07 21:53:50 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:53:50 sri=>status: 4 transId: 49 sls: 0 fsm_sent:21:52:40 fsm:34 1073741869 15 45 part:1
+
+2025-07-07 21:53:50 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:4 Id:2469839647359067131 mob:8801332512914 imsi:470011332512914 created:21:46:55 sri_sent:21:53:50 sri=>status: 4 transId: 49 sls: 0 fsm_sent:21:53:50 fsm:1 1073741872 7 48 part:1
+
+2025-07-07 21:53:51 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741872 mobile: 8801332512914 part: 1
+
+2025-07-07 21:53:51 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|2469839647359067131|0|RVSM
+
+2025-07-07 21:56:15 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801745803758",  "gt":"880711745803758",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":132557658185312517,  "parts":["hello test 5"]}}b.com/alanxz/rå
+
+2025-07-07 21:56:15 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801332512914",  "gt":"880711332512914",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":554015846235580946,  "parts":["hello test 5"]}}b.com/alanxz/rå
+
+2025-07-07 21:56:15 DEBUG sctp_client.cpp:240: SendMessage 10: message_id: 132557658185312517 mobile: 8801745803758 total part: 1 encoding: 0 Message: hello test 5
+2025-07-07 21:56:15 DEBUG sctp_client.cpp:240: SendMessage 10: message_id: 554015846235580946 mobile: 8801332512914 total part: 1 encoding: 0 Message: hello test 5
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:0 Id:132557658185312517 mob:8801745803758 imsi: created:21:56:15 sri_sent:21:56:15 sri=>status: 1 transId: 50 sls: 1 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 21:56:15 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801332512901",  "gt":"880711332512901",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":1889445887396736976,  "parts":["hello test 5"]}b.com/alanxz/rå
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:1 Id:554015846235580946 mob:8801332512914 imsi: created:21:56:15 sri_sent:21:56:15 sri=>status: 1 transId: 51 sls: 2 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 21:56:15 DEBUG sctp_client.cpp:240: SendMessage 12: message_id: 1889445887396736976 mobile: 8801332512901 total part: 1 encoding: 0 Message: hello test 5
+2025-07-07 21:56:15 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801857873297",  "gt":"880811857873297",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":4942168518445655973,  "parts":["hello test 5"]}b.com/alanxz/rå
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi: created:21:56:15 sri_sent:21:56:15 sri=>status: 1 transId: 52 sls: 3 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 21:56:15 DEBUG sctp_client.cpp:240: SendMessage 12: message_id: 4942168518445655973 mobile: 8801857873297 total part: 1 encoding: 0 Message: hello test 5
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi: created:21:56:15 sri_sent:21:56:15 sri=>status: 1 transId: 53 sls: 4 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 21:56:15 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801332512990",  "gt":"880711332512990",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":4580917107896370400,  "parts":["hello test 5"]}b.com/alanxz/rå
+
+2025-07-07 21:56:15 DEBUG sctp_client.cpp:240: SendMessage 13: message_id: 4580917107896370400 mobile: 8801332512990 total part: 1 encoding: 0 Message: hello test 5
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:4 Id:4580917107896370400 mob:8801332512990 imsi: created:21:56:15 sri_sent:21:56:15 sri=>status: 1 transId: 54 sls: 5 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 21:56:15 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801847291957",  "gt":"880811847291957",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":5265387269461894767,  "parts":["hello test 5"]}b.com/alanxz/rå
+
+2025-07-07 21:56:15 DEBUG sctp_client.cpp:240: SendMessage 14: message_id: 5265387269461894767 mobile: 8801847291957 total part: 1 encoding: 0 Message: hello test 5
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:5 Id:5265387269461894767 mob:8801847291957 imsi: created:21:56:15 sri_sent:21:56:15 sri=>status: 1 transId: 55 sls: 6 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:0 Id:132557658185312517 mob:8801745803758 imsi: created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 50 sls: 1 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 50 sls: 1 fsm_sent:21:56:15 fsm:1 1073741873 9 49 part:1
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:1 Id:554015846235580946 mob:8801332512914 imsi: created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 51 sls: 2 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 51 sls: 2 fsm_sent:21:56:15 fsm:1 1073741874 10 50 part:1
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:4 Id:4580917107896370400 mob:8801332512990 imsi: created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 54 sls: 5 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:4 Id:4580917107896370400 mob:8801332512990 imsi:470011332512990 created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 54 sls: 5 fsm_sent:21:56:15 fsm:1 1073741875 11 51 part:1
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi: created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 52 sls: 3 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 52 sls: 3 fsm_sent:21:56:15 fsm:1 1073741876 12 52 part:1
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi: created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 53 sls: 4 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020013688294 created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 53 sls: 4 fsm_sent:21:56:15 fsm:1 1073741877 13 53 part:1
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:5 Id:5265387269461894767 mob:8801847291957 imsi: created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 55 sls: 6 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 21:56:15 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:5 Id:5265387269461894767 mob:8801847291957 imsi:470020017322623 created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 55 sls: 6 fsm_sent:21:56:15 fsm:1 1073741878 14 54 part:1
+
+2025-07-07 21:56:16 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741873 errorcode:6
+2025-07-07 21:56:16 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:56:16 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741877 errorcode:6
+2025-07-07 21:56:16 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:56:16 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741874 errorcode:6
+2025-07-07 21:56:16 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:56:16 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741876 errorcode:6
+2025-07-07 21:56:16 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:56:20 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741878 mobile: 8801847291957 part: 1
+
+2025-07-07 21:56:20 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|5265387269461894767|0|RVSM
+
+2025-07-07 21:56:28 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741875 errorcode:6
+2025-07-07 21:56:28 WARN  message_handler.cpp:268: ERROR:FSM:8801332512990 6
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 50 sls: 1 fsm_sent:21:56:15 fsm:6 1073741873 9 49 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:57:20 sri=>status: 1 transId: 56 sls: 7 fsm_sent:21:56:15 fsm:6 1073741873 9 49 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 51 sls: 2 fsm_sent:21:56:15 fsm:6 1073741874 10 50 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:57:20 sri=>status: 1 transId: 57 sls: 8 fsm_sent:21:56:15 fsm:6 1073741874 10 50 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 52 sls: 3 fsm_sent:21:56:15 fsm:6 1073741876 12 52 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:57:20 sri=>status: 1 transId: 58 sls: 9 fsm_sent:21:56:15 fsm:6 1073741876 12 52 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020013688294 created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 53 sls: 4 fsm_sent:21:56:15 fsm:6 1073741877 13 53 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020013688294 created:21:56:15 sri_sent:21:57:20 sri=>status: 1 transId: 59 sls: 10 fsm_sent:21:56:15 fsm:6 1073741877 13 53 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:4 Id:4580917107896370400 mob:8801332512990 imsi:470011332512990 created:21:56:15 sri_sent:21:56:15 sri=>status: 4 transId: 54 sls: 5 fsm_sent:21:56:15 fsm:6 1073741875 11 51 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:4 Id:4580917107896370400 mob:8801332512990 imsi:470011332512990 created:21:56:15 sri_sent:21:57:20 sri=>status: 1 transId: 60 sls: 11 fsm_sent:21:56:15 fsm:6 1073741875 11 51 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:4 Id:4580917107896370400 mob:8801332512990 imsi:470011332512990 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 60 sls: 11 fsm_sent:21:56:15 fsm:6 1073741875 11 51 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:4 Id:4580917107896370400 mob:8801332512990 imsi:470011332512990 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 60 sls: 11 fsm_sent:21:57:20 fsm:1 1073741879 0 55 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 56 sls: 7 fsm_sent:21:56:15 fsm:6 1073741873 9 49 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 56 sls: 7 fsm_sent:21:57:20 fsm:1 1073741880 1 56 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 58 sls: 9 fsm_sent:21:56:15 fsm:6 1073741876 12 52 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 58 sls: 9 fsm_sent:21:57:20 fsm:1 1073741881 2 57 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 57 sls: 8 fsm_sent:21:56:15 fsm:6 1073741874 10 50 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 57 sls: 8 fsm_sent:21:57:20 fsm:1 1073741882 3 58 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020013688294 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 59 sls: 10 fsm_sent:21:56:15 fsm:6 1073741877 13 53 part:1
+
+2025-07-07 21:57:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020012818560 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 59 sls: 10 fsm_sent:21:57:20 fsm:1 1073741883 4 59 part:1
+
+2025-07-07 21:57:20 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741881 errorcode:6
+2025-07-07 21:57:20 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:57:20 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741880 errorcode:6
+2025-07-07 21:57:20 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:57:20 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741883 errorcode:6
+2025-07-07 21:57:20 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:57:21 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741882 errorcode:6
+2025-07-07 21:57:21 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:57:21 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741879 mobile: 8801332512990 part: 1
+
+2025-07-07 21:57:21 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|4580917107896370400|0|RVSM
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 56 sls: 7 fsm_sent:21:57:20 fsm:6 1073741880 1 56 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:58:30 sri=>status: 1 transId: 61 sls: 12 fsm_sent:21:57:20 fsm:6 1073741880 1 56 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 57 sls: 8 fsm_sent:21:57:20 fsm:6 1073741882 3 58 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:58:30 sri=>status: 1 transId: 62 sls: 13 fsm_sent:21:57:20 fsm:6 1073741882 3 58 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 58 sls: 9 fsm_sent:21:57:20 fsm:6 1073741881 2 57 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:58:30 sri=>status: 1 transId: 63 sls: 14 fsm_sent:21:57:20 fsm:6 1073741881 2 57 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020012818560 created:21:56:15 sri_sent:21:57:20 sri=>status: 4 transId: 59 sls: 10 fsm_sent:21:57:20 fsm:6 1073741883 4 59 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020012818560 created:21:56:15 sri_sent:21:58:30 sri=>status: 1 transId: 64 sls: 15 fsm_sent:21:57:20 fsm:6 1073741883 4 59 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:58:30 sri=>status: 4 transId: 62 sls: 13 fsm_sent:21:57:20 fsm:6 1073741882 3 58 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:58:30 sri=>status: 4 transId: 62 sls: 13 fsm_sent:21:58:30 fsm:1 1073741884 6 60 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:58:30 sri=>status: 4 transId: 63 sls: 14 fsm_sent:21:57:20 fsm:6 1073741881 2 57 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:58:30 sri=>status: 4 transId: 63 sls: 14 fsm_sent:21:58:30 fsm:1 1073741885 7 61 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:58:30 sri=>status: 4 transId: 61 sls: 12 fsm_sent:21:57:20 fsm:6 1073741880 1 56 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:58:30 sri=>status: 4 transId: 61 sls: 12 fsm_sent:21:58:30 fsm:1 1073741886 8 62 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020012818560 created:21:56:15 sri_sent:21:58:30 sri=>status: 4 transId: 64 sls: 15 fsm_sent:21:57:20 fsm:6 1073741883 4 59 part:1
+
+2025-07-07 21:58:30 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020010201343 created:21:56:15 sri_sent:21:58:30 sri=>status: 4 transId: 64 sls: 15 fsm_sent:21:58:30 fsm:1 1073741887 9 63 part:1
+
+2025-07-07 21:58:31 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741887 errorcode:6
+2025-07-07 21:58:31 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 21:58:31 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741884 errorcode:6
+2025-07-07 21:58:31 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 21:58:31 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741886 errorcode:6
+2025-07-07 21:58:31 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 21:58:31 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741885 errorcode:6
+2025-07-07 21:58:31 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:58:30 sri=>status: 4 transId: 61 sls: 12 fsm_sent:21:58:30 fsm:6 1073741886 8 62 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:59:40 sri=>status: 1 transId: 65 sls: 0 fsm_sent:21:58:30 fsm:6 1073741886 8 62 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:58:30 sri=>status: 4 transId: 62 sls: 13 fsm_sent:21:58:30 fsm:6 1073741884 6 60 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:59:40 sri=>status: 1 transId: 66 sls: 1 fsm_sent:21:58:30 fsm:6 1073741884 6 60 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:58:30 sri=>status: 4 transId: 63 sls: 14 fsm_sent:21:58:30 fsm:6 1073741885 7 61 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:59:40 sri=>status: 1 transId: 67 sls: 2 fsm_sent:21:58:30 fsm:6 1073741885 7 61 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020010201343 created:21:56:15 sri_sent:21:58:30 sri=>status: 4 transId: 64 sls: 15 fsm_sent:21:58:30 fsm:6 1073741887 9 63 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020010201343 created:21:56:15 sri_sent:21:59:40 sri=>status: 1 transId: 68 sls: 3 fsm_sent:21:58:30 fsm:6 1073741887 9 63 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:59:40 sri=>status: 4 transId: 66 sls: 1 fsm_sent:21:58:30 fsm:6 1073741884 6 60 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:1 Id:554015846235580946 mob:8801332512914 imsi:470011332512914 created:21:56:15 sri_sent:21:59:40 sri=>status: 4 transId: 66 sls: 1 fsm_sent:21:59:40 fsm:1 1073741888 10 64 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:59:40 sri=>status: 4 transId: 65 sls: 0 fsm_sent:21:58:30 fsm:6 1073741886 8 62 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:0 Id:132557658185312517 mob:8801745803758 imsi:470011745803758 created:21:56:15 sri_sent:21:59:40 sri=>status: 4 transId: 65 sls: 0 fsm_sent:21:59:40 fsm:1 1073741889 11 65 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:59:40 sri=>status: 4 transId: 67 sls: 2 fsm_sent:21:58:30 fsm:6 1073741885 7 61 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:2 Id:1889445887396736976 mob:8801332512901 imsi:470011332512901 created:21:56:15 sri_sent:21:59:40 sri=>status: 4 transId: 67 sls: 2 fsm_sent:21:59:40 fsm:1 1073741890 12 66 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020010201343 created:21:56:15 sri_sent:21:59:40 sri=>status: 4 transId: 68 sls: 3 fsm_sent:21:58:30 fsm:6 1073741887 9 63 part:1
+
+2025-07-07 21:59:40 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:3 Id:4942168518445655973 mob:8801857873297 imsi:470020014334459 created:21:56:15 sri_sent:21:59:40 sri=>status: 4 transId: 68 sls: 3 fsm_sent:21:59:40 fsm:1 1073741891 13 67 part:1
+
+2025-07-07 21:59:41 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741888 mobile: 8801332512914 part: 1
+
+2025-07-07 21:59:41 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|554015846235580946|0|RVSM
+
+2025-07-07 21:59:41 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741890 mobile: 8801332512901 part: 1
+
+2025-07-07 21:59:41 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|1889445887396736976|0|RVSM
+
+2025-07-07 21:59:41 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741889 mobile: 8801745803758 part: 1
+
+2025-07-07 21:59:41 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|132557658185312517|0|RVSM
+
+2025-07-07 21:59:41 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741891 mobile: 8801857873297 part: 1
+
+2025-07-07 21:59:41 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|4942168518445655973|0|RVSM
+
+2025-07-07 22:04:51 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801745803758",  "gt":"880711745803758",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":1017569836283187700,  "parts":["hello test 6"]}b.com/alanxz/rå
+
+2025-07-07 22:04:51 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801332512914",  "gt":"880711332512914",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":1144350458246224592,  "parts":["hello test 6"]}b.com/alanxz/rå
+
+2025-07-07 22:04:51 DEBUG sctp_client.cpp:240: SendMessage 16: message_id: 1017569836283187700 mobile: 8801745803758 total part: 1 encoding: 0 Message: hello test 6
+2025-07-07 22:04:51 DEBUG sctp_client.cpp:240: SendMessage 16: message_id: 1144350458246224592 mobile: 8801332512914 total part: 1 encoding: 0 Message: hello test 6
+2025-07-07 22:04:51 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi: created:22:04:51 sri_sent:22:04:51 sri=>status: 1 transId: 69 sls: 4 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 22:04:51 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi: created:22:04:51 sri_sent:22:04:51 sri=>status: 1 transId: 70 sls: 5 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 22:04:51 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801857873297",  "gt":"880811857873297",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":106550311516825662,  "parts":["hello test 6"]}}b.com/alanxz/rå
+
+2025-07-07 22:04:51 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801332512901",  "gt":"880711332512901",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":1829283418195503091,  "parts":["hello test 6"]}b.com/alanxz/rå
+
+2025-07-07 22:04:51 DEBUG sctp_client.cpp:240: SendMessage 18: message_id: 106550311516825662 mobile: 8801857873297 total part: 1 encoding: 0 Message: hello test 6
+2025-07-07 22:04:51 DEBUG sctp_client.cpp:240: SendMessage 18: message_id: 1829283418195503091 mobile: 8801332512901 total part: 1 encoding: 0 Message: hello test 6
+2025-07-07 22:04:51 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:2 Id:106550311516825662 mob:8801857873297 imsi: created:22:04:51 sri_sent:22:04:51 sri=>status: 1 transId: 71 sls: 6 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 22:04:51 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi: created:22:04:51 sri_sent:22:04:51 sri=>status: 1 transId: 72 sls: 7 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 22:04:51 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801332512990",  "gt":"880711332512990",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":500675822310806226,  "parts":["hello test 6"]}}b.com/alanxz/rå
+
+2025-07-07 22:04:51 DEBUG sctp_client.cpp:240: SendMessage 19: message_id: 500675822310806226 mobile: 8801332512990 total part: 1 encoding: 0 Message: hello test 6
+2025-07-07 22:04:51 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:4 Id:500675822310806226 mob:8801332512990 imsi: created:22:04:51 sri_sent:22:04:51 sri=>status: 1 transId: 73 sls: 8 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 22:04:51 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643016590",  "msisdn":"8801847291957",  "gt":"880811847291957",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":6402655072776097042,  "parts":["hello test 6"]}b.com/alanxz/rå
+
+2025-07-07 22:04:51 DEBUG sctp_client.cpp:240: SendMessage 20: message_id: 6402655072776097042 mobile: 8801847291957 total part: 1 encoding: 0 Message: hello test 6
+2025-07-07 22:04:51 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:5 Id:6402655072776097042 mob:8801847291957 imsi: created:22:04:51 sri_sent:22:04:51 sri=>status: 1 transId: 74 sls: 9 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 22:04:52 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi: created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 70 sls: 5 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 22:04:52 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 70 sls: 5 fsm_sent:22:04:52 fsm:1 1073741892 0 68 part:1
+
+2025-07-07 22:04:52 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi: created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 72 sls: 7 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 22:04:52 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 72 sls: 7 fsm_sent:22:04:52 fsm:1 1073741893 1 69 part:1
+
+2025-07-07 22:04:52 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi: created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 69 sls: 4 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 22:04:52 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 69 sls: 4 fsm_sent:22:04:52 fsm:1 1073741894 2 70 part:1
+
+2025-07-07 22:04:52 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:4 Id:500675822310806226 mob:8801332512990 imsi: created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 73 sls: 8 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 22:04:52 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:4 Id:500675822310806226 mob:8801332512990 imsi:470011332512990 created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 73 sls: 8 fsm_sent:22:04:52 fsm:1 1073741895 3 71 part:1
+
+2025-07-07 22:04:52 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:2 Id:106550311516825662 mob:8801857873297 imsi: created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 71 sls: 6 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 22:04:52 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020015312428 created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 71 sls: 6 fsm_sent:22:04:52 fsm:1 1073741896 4 72 part:1
+
+2025-07-07 22:04:52 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:5 Id:6402655072776097042 mob:8801847291957 imsi: created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 74 sls: 9 fsm_sent:00:00:00 fsm:0 0 0 0 part:-1
+
+2025-07-07 22:04:52 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:5 Id:6402655072776097042 mob:8801847291957 imsi:470020014729103 created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 74 sls: 9 fsm_sent:22:04:52 fsm:1 1073741897 5 73 part:1
+
+2025-07-07 22:04:52 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741892 errorcode:6
+2025-07-07 22:04:52 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 22:04:52 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741894 errorcode:6
+2025-07-07 22:04:52 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 22:04:52 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741896 errorcode:6
+2025-07-07 22:04:52 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 22:04:52 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741893 errorcode:6
+2025-07-07 22:04:52 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 22:04:53 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741895 mobile: 8801332512990 part: 1
+
+2025-07-07 22:04:53 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|500675822310806226|0|RVSM
+
+2025-07-07 22:04:54 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741897 mobile: 8801847291957 part: 1
+
+2025-07-07 22:04:54 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|6402655072776097042|0|RVSM
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 69 sls: 4 fsm_sent:22:04:52 fsm:6 1073741894 2 70 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:06:00 sri=>status: 1 transId: 75 sls: 10 fsm_sent:22:04:52 fsm:6 1073741894 2 70 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 70 sls: 5 fsm_sent:22:04:52 fsm:6 1073741892 0 68 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:06:00 sri=>status: 1 transId: 76 sls: 11 fsm_sent:22:04:52 fsm:6 1073741892 0 68 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020015312428 created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 71 sls: 6 fsm_sent:22:04:52 fsm:6 1073741896 4 72 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020015312428 created:22:04:51 sri_sent:22:06:00 sri=>status: 1 transId: 77 sls: 12 fsm_sent:22:04:52 fsm:6 1073741896 4 72 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:04:51 sri=>status: 4 transId: 72 sls: 7 fsm_sent:22:04:52 fsm:6 1073741893 1 69 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:06:00 sri=>status: 1 transId: 78 sls: 13 fsm_sent:22:04:52 fsm:6 1073741893 1 69 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:06:00 sri=>status: 4 transId: 76 sls: 11 fsm_sent:22:04:52 fsm:6 1073741892 0 68 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:06:00 sri=>status: 4 transId: 76 sls: 11 fsm_sent:22:06:00 fsm:1 1073741898 6 74 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:06:00 sri=>status: 4 transId: 78 sls: 13 fsm_sent:22:04:52 fsm:6 1073741893 1 69 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:06:00 sri=>status: 4 transId: 78 sls: 13 fsm_sent:22:06:00 fsm:1 1073741899 7 75 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:06:00 sri=>status: 4 transId: 75 sls: 10 fsm_sent:22:04:52 fsm:6 1073741894 2 70 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:06:00 sri=>status: 4 transId: 75 sls: 10 fsm_sent:22:06:00 fsm:1 1073741900 8 76 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020015312428 created:22:04:51 sri_sent:22:06:00 sri=>status: 4 transId: 77 sls: 12 fsm_sent:22:04:52 fsm:6 1073741896 4 72 part:1
+
+2025-07-07 22:06:00 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020019226260 created:22:04:51 sri_sent:22:06:00 sri=>status: 4 transId: 77 sls: 12 fsm_sent:22:06:00 fsm:1 1073741901 9 77 part:1
+
+2025-07-07 22:06:00 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741898 errorcode:6
+2025-07-07 22:06:00 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 22:06:00 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741899 errorcode:6
+2025-07-07 22:06:00 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 22:06:00 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741900 errorcode:6
+2025-07-07 22:06:00 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 22:06:01 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741901 errorcode:6
+2025-07-07 22:06:01 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:06:00 sri=>status: 4 transId: 75 sls: 10 fsm_sent:22:06:00 fsm:6 1073741900 8 76 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:07:10 sri=>status: 1 transId: 79 sls: 14 fsm_sent:22:06:00 fsm:6 1073741900 8 76 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:06:00 sri=>status: 4 transId: 76 sls: 11 fsm_sent:22:06:00 fsm:6 1073741898 6 74 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: SRI_SENT: Socket:3 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:07:10 sri=>status: 1 transId: 80 sls: 15 fsm_sent:22:06:00 fsm:6 1073741898 6 74 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020019226260 created:22:04:51 sri_sent:22:06:00 sri=>status: 4 transId: 77 sls: 12 fsm_sent:22:06:00 fsm:6 1073741901 9 77 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020019226260 created:22:04:51 sri_sent:22:07:10 sri=>status: 1 transId: 81 sls: 0 fsm_sent:22:06:00 fsm:6 1073741901 9 77 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:06:00 sri=>status: 4 transId: 78 sls: 13 fsm_sent:22:06:00 fsm:6 1073741899 7 75 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:07:10 sri=>status: 1 transId: 82 sls: 1 fsm_sent:22:06:00 fsm:6 1073741899 7 75 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:07:10 sri=>status: 4 transId: 79 sls: 14 fsm_sent:22:06:00 fsm:6 1073741900 8 76 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:07:10 sri=>status: 4 transId: 79 sls: 14 fsm_sent:22:07:10 fsm:1 1073741902 11 78 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:07:10 sri=>status: 4 transId: 82 sls: 1 fsm_sent:22:06:00 fsm:6 1073741899 7 75 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:07:10 sri=>status: 4 transId: 82 sls: 1 fsm_sent:22:07:10 fsm:1 1073741903 12 79 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:3 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:07:10 sri=>status: 4 transId: 80 sls: 15 fsm_sent:22:06:00 fsm:6 1073741898 6 74 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: FSMSENT: Socket:3 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:07:10 sri=>status: 4 transId: 80 sls: 15 fsm_sent:22:07:10 fsm:1 1073741904 13 80 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020019226260 created:22:04:51 sri_sent:22:07:10 sri=>status: 4 transId: 81 sls: 0 fsm_sent:22:06:00 fsm:6 1073741901 9 77 part:1
+
+2025-07-07 22:07:10 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020016957288 created:22:04:51 sri_sent:22:07:10 sri=>status: 4 transId: 81 sls: 0 fsm_sent:22:07:10 fsm:1 1073741905 14 81 part:1
+
+2025-07-07 22:07:10 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741903 errorcode:6
+2025-07-07 22:07:10 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 22:07:10 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741905 errorcode:6
+2025-07-07 22:07:10 WARN  message_handler.cpp:268: ERROR:FSM:8801857873297 6
+2025-07-07 22:07:11 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741904 errorcode:6
+2025-07-07 22:07:11 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 22:07:11 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741902 errorcode:6
+2025-07-07 22:07:11 WARN  message_handler.cpp:268: ERROR:FSM:8801745803758 6
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:07:10 sri=>status: 4 transId: 79 sls: 14 fsm_sent:22:07:10 fsm:6 1073741902 11 78 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:08:20 sri=>status: 1 transId: 83 sls: 2 fsm_sent:22:07:10 fsm:6 1073741902 11 78 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:07:10 sri=>status: 4 transId: 80 sls: 15 fsm_sent:22:07:10 fsm:6 1073741904 13 80 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:1 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:08:20 sri=>status: 1 transId: 84 sls: 3 fsm_sent:22:07:10 fsm:6 1073741904 13 80 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020016957288 created:22:04:51 sri_sent:22:07:10 sri=>status: 4 transId: 81 sls: 0 fsm_sent:22:07:10 fsm:6 1073741905 14 81 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:2 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020016957288 created:22:04:51 sri_sent:22:08:20 sri=>status: 1 transId: 85 sls: 4 fsm_sent:22:07:10 fsm:6 1073741905 14 81 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:07:10 sri=>status: 4 transId: 82 sls: 1 fsm_sent:22:07:10 fsm:6 1073741903 12 79 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: SRI_SENT: Socket:0 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:08:20 sri=>status: 1 transId: 86 sls: 5 fsm_sent:22:07:10 fsm:6 1073741903 12 79 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:1 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:08:20 sri=>status: 4 transId: 84 sls: 3 fsm_sent:22:07:10 fsm:6 1073741904 13 80 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:1 Pos:1 Id:1144350458246224592 mob:8801332512914 imsi:470011332512914 created:22:04:51 sri_sent:22:08:20 sri=>status: 4 transId: 84 sls: 3 fsm_sent:22:08:20 fsm:1 1073741906 1 82 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:08:20 sri=>status: 4 transId: 83 sls: 2 fsm_sent:22:07:10 fsm:6 1073741902 11 78 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:0 Id:1017569836283187700 mob:8801745803758 imsi:470011745803758 created:22:04:51 sri_sent:22:08:20 sri=>status: 4 transId: 83 sls: 2 fsm_sent:22:08:20 fsm:1 1073741907 2 83 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:0 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:08:20 sri=>status: 4 transId: 86 sls: 5 fsm_sent:22:07:10 fsm:6 1073741903 12 79 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:0 Pos:3 Id:1829283418195503091 mob:8801332512901 imsi:470011332512901 created:22:04:51 sri_sent:22:08:20 sri=>status: 4 transId: 86 sls: 5 fsm_sent:22:08:20 fsm:1 1073741908 3 84 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: SRIRESPONSE: Socket:2 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020016957288 created:22:04:51 sri_sent:22:08:20 sri=>status: 4 transId: 85 sls: 4 fsm_sent:22:07:10 fsm:6 1073741905 14 81 part:1
+
+2025-07-07 22:08:20 DEBUG message_repository.cpp:101: FSMSENT: Socket:2 Pos:2 Id:106550311516825662 mob:8801857873297 imsi:470020010379749 created:22:04:51 sri_sent:22:08:20 sri=>status: 4 transId: 85 sls: 4 fsm_sent:22:08:20 fsm:1 1073741909 4 85 part:1
+
+2025-07-07 22:08:21 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741907 mobile: 8801745803758 part: 1
+
+2025-07-07 22:08:21 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|1017569836283187700|0|RVSM
+
+2025-07-07 22:08:21 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741909 mobile: 8801857873297 part: 1
+
+2025-07-07 22:08:21 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|106550311516825662|0|RVSM
+
+2025-07-07 22:08:21 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741908 mobile: 8801332512901 part: 1
+
+2025-07-07 22:08:21 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|1829283418195503091|0|RVSM
+
+2025-07-07 22:08:22 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741906 mobile: 8801332512914 part: 1
+
+2025-07-07 22:08:22 DEBUG main.cpp:51: ======================Callback: SMS_STATUS|1144350458246224592|0|RVSM
 
