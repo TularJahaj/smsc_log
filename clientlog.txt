@@ -1,0 +1,184 @@
+2025-07-07 07:53:30 DEBUG main.cpp:38: ======================Callback: READY|0
+
+2025-07-07 07:53:30 DEBUG sctp_client.cpp:765: Connecting 1.......
+
+2025-07-07 07:53:30 DEBUG main.cpp:38: ======================Callback: READY|0
+
+2025-07-07 07:53:30 DEBUG sctp_client.cpp:843: Connecting 2.......
+
+2025-07-07 07:53:30 DEBUG sctp_client.cpp:919: Connecting 3.......
+
+2025-07-07 07:53:30 DEBUG sctp_client.cpp:1000: Connecting 4.......
+
+2025-07-07 07:53:30 DEBUG sctp_client.cpp:819: Connected1 : 7
+
+2025-07-07 07:53:30 DEBUG sctp_client.cpp:835: ASP Up sent from socket 1
+2025-07-07 07:53:30 DEBUG sctp_client.cpp:896: Connected 2 : 8
+
+2025-07-07 07:53:30 DEBUG sctp_client.cpp:975: Connected 3 : 9
+
+2025-07-07 07:53:30 DEBUG sctp_client.cpp:912: ASP Up sent from socket 2
+2025-07-07 07:53:30 DEBUG sctp_client.cpp:1056: Connected 4 : 10
+
+2025-07-07 07:53:30 DEBUG sctp_client.cpp:993: ASP Up sent from socket 3
+2025-07-07 07:53:30 DEBUG sctp_client.cpp:1072: ASP Up sent from socket 4
+2025-07-07 07:53:40 DEBUG main.cpp:38: ======================Callback: READY|1
+
+2025-07-07 07:53:40 DEBUG main.cpp:38: ======================Callback: READY|1
+
+2025-07-07 07:53:40 DEBUG main.cpp:126: Consumer started!!!
+2025-07-07 07:53:40 DEBUG main.cpp:126: Consumer started!!!
+2025-07-07 07:53:40 DEBUG main.cpp:38: ======================Callback: READY|1
+
+2025-07-07 07:53:40 DEBUG main.cpp:38: ======================Callback: READY|1
+
+2025-07-07 08:05:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801847291957",  "gt":"880811847291957",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":5448515374146766612,  "parts":["This is test sms from SMSC switch message number 27"]}
+
+2025-07-07 08:05:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801332512990",  "gt":"880711332512990",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":4725812331139455206,  "parts":["This is test sms from SMSC switch message number 27"]}
+
+2025-07-07 08:06:00 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741825 errorcode:6
+2025-07-07 08:06:00 WARN  message_handler.cpp:268: ERROR:FSM:8801847291957 6
+2025-07-07 08:06:00 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741824 errorcode:6
+2025-07-07 08:06:00 WARN  message_handler.cpp:268: ERROR:FSM:8801332512990 6
+2025-07-07 08:07:00 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:0 Id:5448515374146766612 mob:8801847291957 imsi:470020016455973 created:08:05:59 sri_sent:08:05:59 sri=>status: 4 transId: 1 sls: 0 fsm_sent:08:05:59 fsm:6 1073741825 8 1 part:1
+
+2025-07-07 08:07:00 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:1 Id:4725812331139455206 mob:8801332512990 imsi:470011332512990 created:08:05:59 sri_sent:08:05:59 sri=>status: 4 transId: 2 sls: 1 fsm_sent:08:05:59 fsm:6 1073741824 7 0 part:1
+
+2025-07-07 08:07:01 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741827 errorcode:6
+2025-07-07 08:07:01 WARN  message_handler.cpp:268: ERROR:FSM:8801847291957 6
+2025-07-07 08:07:01 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741826 errorcode:6
+2025-07-07 08:07:01 WARN  message_handler.cpp:268: ERROR:FSM:8801332512990 6
+2025-07-07 08:08:10 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:0 Id:5448515374146766612 mob:8801847291957 imsi:470020010294521 created:08:05:59 sri_sent:08:07:00 sri=>status: 4 transId: 3 sls: 2 fsm_sent:08:07:01 fsm:6 1073741827 11 3 part:1
+
+2025-07-07 08:08:10 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:1 Id:4725812331139455206 mob:8801332512990 imsi:470011332512990 created:08:05:59 sri_sent:08:07:00 sri=>status: 4 transId: 4 sls: 3 fsm_sent:08:07:01 fsm:6 1073741826 10 2 part:1
+
+2025-07-07 08:08:11 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741829 errorcode:6
+2025-07-07 08:08:11 WARN  message_handler.cpp:268: ERROR:FSM:8801847291957 6
+2025-07-07 08:08:11 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741828 errorcode:6
+2025-07-07 08:08:11 WARN  message_handler.cpp:268: ERROR:FSM:8801332512990 6
+2025-07-07 08:09:20 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:0 Id:5448515374146766612 mob:8801847291957 imsi:470020016774967 created:08:05:59 sri_sent:08:08:10 sri=>status: 4 transId: 5 sls: 4 fsm_sent:08:08:11 fsm:6 1073741829 14 5 part:1
+
+2025-07-07 08:09:20 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:1 Id:4725812331139455206 mob:8801332512990 imsi:470011332512990 created:08:05:59 sri_sent:08:08:10 sri=>status: 4 transId: 6 sls: 5 fsm_sent:08:08:11 fsm:6 1073741828 13 4 part:1
+
+2025-07-07 08:09:21 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741831 errorcode:6
+2025-07-07 08:09:21 WARN  message_handler.cpp:268: ERROR:FSM:8801847291957 6
+2025-07-07 08:09:28 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741830 mobile: 8801332512990 part: 1
+
+2025-07-07 08:09:28 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|4725812331139455206|0|RVSM
+
+2025-07-07 08:10:30 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:0 Id:5448515374146766612 mob:8801847291957 imsi:470020010569077 created:08:05:59 sri_sent:08:09:20 sri=>status: 4 transId: 7 sls: 6 fsm_sent:08:09:21 fsm:6 1073741831 1 7 part:1
+
+2025-07-07 08:10:31 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741832 errorcode:6
+2025-07-07 08:10:31 WARN  message_handler.cpp:268: ERROR:FSM:8801847291957 6
+2025-07-07 08:11:40 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:0 Id:5448515374146766612 mob:8801847291957 imsi:470020012168150 created:08:05:59 sri_sent:08:10:30 sri=>status: 4 transId: 9 sls: 8 fsm_sent:08:10:31 fsm:6 1073741832 3 8 part:1
+
+2025-07-07 08:11:41 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741833 mobile: 8801847291957 part: 1
+
+2025-07-07 08:11:41 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|5448515374146766612|0|RVSM
+
+2025-07-07 09:39:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801847291957",  "gt":"880811847291957",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":2020520433944239086,  "parts":["This is Test SMS30"]}
+
+2025-07-07 09:39:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801811412835",  "gt":"880811811412835",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":2116512851586882950,  "parts":["This is Test SMS30"]}
+
+2025-07-07 09:39:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801332512990",  "gt":"880711332512990",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":1404553661378645894,  "parts":["This is Test SMS30"]}
+
+2025-07-07 09:39:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801306066630",  "gt":"880711306066630",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":4075756365118376277,  "parts":["This is Test SMS30"]}
+
+2025-07-07 09:39:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801332512901",  "gt":"880711332512901",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":4644667658892284188,  "parts":["This is Test SMS30"]}
+
+2025-07-07 09:39:59 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643901310",  "msisdn":"8801332512914",  "gt":"880711332512914",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":1909321096113906697,  "parts":["This is Test SMS30"]}
+
+2025-07-07 09:39:59 ERROR message_handler.cpp:92: TENSE_ERROR: Sri Response Thread 1: NO MESSAGE FOUND transId:13
+2025-07-07 09:39:59 ERROR message_handler.cpp:92: TENSE_ERROR: Sri Response Thread 1: NO MESSAGE FOUND transId:11
+2025-07-07 09:39:59 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741837 errorcode:6
+2025-07-07 09:39:59 WARN  message_handler.cpp:268: ERROR:FSM:8801811412835 6
+2025-07-07 09:40:00 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741836 errorcode:6
+2025-07-07 09:40:00 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 09:40:00 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741834 errorcode:6
+2025-07-07 09:40:00 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 09:40:00 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741835 errorcode:6
+2025-07-07 09:40:00 WARN  message_handler.cpp:268: ERROR:FSM:8801306066630 6
+2025-07-07 09:41:00 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:0 Id:2116512851586882950 mob:8801811412835 imsi:470020012568221 created:09:39:59 sri_sent:09:39:59 sri=>status: 4 transId: 12 sls: 11 fsm_sent:09:39:59 fsm:6 1073741837 2 13 part:1
+
+2025-07-07 09:41:00 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:1 Id:4075756365118376277 mob:8801306066630 imsi:470011306066630 created:09:39:59 sri_sent:09:39:59 sri=>status: 4 transId: 14 sls: 13 fsm_sent:09:39:59 fsm:6 1073741835 0 11 part:1
+
+2025-07-07 09:41:00 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:2 Id:4644667658892284188 mob:8801332512901 imsi:470011332512901 created:09:39:59 sri_sent:09:39:59 sri=>status: 4 transId: 15 sls: 14 fsm_sent:09:39:59 fsm:6 1073741834 15 10 part:1
+
+2025-07-07 09:41:00 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:3 Id:1909321096113906697 mob:8801332512914 imsi:470011332512914 created:09:39:59 sri_sent:09:39:59 sri=>status: 4 transId: 16 sls: 15 fsm_sent:09:39:59 fsm:6 1073741836 1 12 part:1
+
+2025-07-07 09:41:01 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741838 errorcode:6
+2025-07-07 09:41:01 WARN  message_handler.cpp:268: ERROR:FSM:8801306066630 6
+2025-07-07 09:41:01 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741840 errorcode:6
+2025-07-07 09:41:01 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 09:41:01 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741841 errorcode:6
+2025-07-07 09:41:01 WARN  message_handler.cpp:268: ERROR:FSM:8801811412835 6
+2025-07-07 09:41:01 ERROR message_handler.cpp:251: Socket0 Found error for transid 1073741839 errorcode:6
+2025-07-07 09:41:01 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 09:42:10 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:0 Id:2116512851586882950 mob:8801811412835 imsi:470020018630387 created:09:39:59 sri_sent:09:41:00 sri=>status: 4 transId: 17 sls: 0 fsm_sent:09:41:01 fsm:6 1073741841 6 17 part:1
+
+2025-07-07 09:42:10 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:1 Id:4075756365118376277 mob:8801306066630 imsi:470011306066630 created:09:39:59 sri_sent:09:41:00 sri=>status: 4 transId: 18 sls: 1 fsm_sent:09:41:01 fsm:6 1073741838 3 14 part:1
+
+2025-07-07 09:42:10 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:2 Id:4644667658892284188 mob:8801332512901 imsi:470011332512901 created:09:39:59 sri_sent:09:41:00 sri=>status: 4 transId: 19 sls: 2 fsm_sent:09:41:01 fsm:6 1073741840 5 16 part:1
+
+2025-07-07 09:42:10 DEBUG message_repository.cpp:101: RETRY: Socket:0 Pos:3 Id:1909321096113906697 mob:8801332512914 imsi:470011332512914 created:09:39:59 sri_sent:09:41:00 sri=>status: 4 transId: 20 sls: 3 fsm_sent:09:41:01 fsm:6 1073741839 4 15 part:1
+
+2025-07-07 09:42:11 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741844 errorcode:6
+2025-07-07 09:42:11 WARN  message_handler.cpp:268: ERROR:FSM:8801332512901 6
+2025-07-07 09:42:11 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741842 errorcode:6
+2025-07-07 09:42:11 WARN  message_handler.cpp:268: ERROR:FSM:8801306066630 6
+2025-07-07 09:42:11 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741845 errorcode:6
+2025-07-07 09:42:11 WARN  message_handler.cpp:268: ERROR:FSM:8801811412835 6
+2025-07-07 09:42:11 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741843 errorcode:6
+2025-07-07 09:42:11 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 6
+2025-07-07 09:43:20 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:0 Id:2116512851586882950 mob:8801811412835 imsi:470020013199592 created:09:39:59 sri_sent:09:42:10 sri=>status: 4 transId: 21 sls: 4 fsm_sent:09:42:11 fsm:6 1073741845 11 21 part:1
+
+2025-07-07 09:43:20 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:1 Id:4075756365118376277 mob:8801306066630 imsi:470011306066630 created:09:39:59 sri_sent:09:42:10 sri=>status: 4 transId: 22 sls: 5 fsm_sent:09:42:11 fsm:6 1073741842 8 18 part:1
+
+2025-07-07 09:43:20 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:2 Id:4644667658892284188 mob:8801332512901 imsi:470011332512901 created:09:39:59 sri_sent:09:42:10 sri=>status: 4 transId: 23 sls: 6 fsm_sent:09:42:11 fsm:6 1073741844 10 20 part:1
+
+2025-07-07 09:43:20 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:3 Id:1909321096113906697 mob:8801332512914 imsi:470011332512914 created:09:39:59 sri_sent:09:42:10 sri=>status: 4 transId: 24 sls: 7 fsm_sent:09:42:11 fsm:6 1073741843 9 19 part:1
+
+2025-07-07 09:43:21 ERROR message_handler.cpp:251: Socket2 Found error for transid 1073741848 errorcode:6
+2025-07-07 09:43:21 WARN  message_handler.cpp:268: ERROR:FSM:8801306066630 6
+2025-07-07 09:43:22 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741849 mobile: 8801811412835 part: 1
+
+2025-07-07 09:43:22 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|2116512851586882950|0|RVSM
+
+2025-07-07 09:43:23 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741847 mobile: 8801332512901 part: 1
+
+2025-07-07 09:43:23 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|4644667658892284188|0|RVSM
+
+2025-07-07 09:43:41 ERROR message_handler.cpp:251: Socket1 Found error for transid 1073741846 errorcode:34
+2025-07-07 09:43:41 WARN  message_handler.cpp:268: ERROR:FSM:8801332512914 34
+2025-07-07 09:44:30 DEBUG message_repository.cpp:101: RETRY: Socket:2 Pos:1 Id:4075756365118376277 mob:8801306066630 imsi:470011306066630 created:09:39:59 sri_sent:09:43:20 sri=>status: 4 transId: 26 sls: 9 fsm_sent:09:43:21 fsm:6 1073741848 0 24 part:1
+
+2025-07-07 09:44:30 DEBUG message_repository.cpp:101: RETRY: Socket:1 Pos:3 Id:1909321096113906697 mob:8801332512914 imsi:470011332512914 created:09:39:59 sri_sent:09:43:20 sri=>status: 4 transId: 28 sls: 11 fsm_sent:09:43:21 fsm:34 1073741846 14 22 part:1
+
+2025-07-07 09:44:32 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741851 errorcode:6
+2025-07-07 09:44:32 WARN  message_handler.cpp:268: ERROR:FSM:8801306066630 6
+2025-07-07 09:44:32 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741850 mobile: 8801332512914 part: 1
+
+2025-07-07 09:44:32 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|1909321096113906697|0|RVSM
+
+2025-07-07 09:45:40 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:1 Id:4075756365118376277 mob:8801306066630 imsi:470011306066630 created:09:39:59 sri_sent:09:44:30 sri=>status: 4 transId: 29 sls: 12 fsm_sent:09:44:31 fsm:6 1073741851 3 27 part:1
+
+2025-07-07 09:45:41 ERROR message_handler.cpp:251: Socket3 Found error for transid 1073741852 errorcode:6
+2025-07-07 09:45:41 WARN  message_handler.cpp:268: ERROR:FSM:8801306066630 6
+2025-07-07 09:46:50 DEBUG message_repository.cpp:101: RETRY: Socket:3 Pos:1 Id:4075756365118376277 mob:8801306066630 imsi:470011306066630 created:09:39:59 sri_sent:09:45:40 sri=>status: 4 transId: 31 sls: 14 fsm_sent:09:45:41 fsm:6 1073741852 6 28 part:1
+
+2025-07-07 09:46:53 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741853 mobile: 8801306066630 part: 1
+
+2025-07-07 09:46:53 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|4075756365118376277|0|RVSM
+
+2025-07-07 11:28:33 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643910000",  "msisdn":"8801322811590",  "gt":"880711322811590",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":1907711225068906548,  "parts":["test sms for system check."]}å
+
+2025-07-07 11:28:36 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741854 mobile: 8801322811590 part: 1
+
+2025-07-07 11:28:36 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|1907711225068906548|0|RVSM
+
+2025-07-07 11:34:29 DEBUG consumer.cpp:85: Message consumed: { "userid":"RVSM",  "senderid":"8809643910000",  "msisdn":"8801914065339",  "gt":"880911914065339",  "dcs":0,  "has_gsm_extended":0,  "no_of_sms":1,  "id":4322210889225875680,  "parts":["test sms 5:34PM"]}m check."]}å
+
+2025-07-07 11:34:31 INFO  message_handler.cpp:312: Thread 1: Final FSM Response Found, trans id: 1073741855 mobile: 8801914065339 part: 1
+
+2025-07-07 11:34:31 DEBUG main.cpp:49: ======================Callback: SMS_STATUS|4322210889225875680|0|RVSM
+
